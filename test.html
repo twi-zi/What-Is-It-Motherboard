@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qu'est ce qu'une carte mere</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script type="text/javascript" src="js.js"></script>
+    <img id="img" name="immap" src="carte-mere.jpg" width="100%" height="100%" usemap="#carte-mere" >
+    <map id= "carte-mere" name="carte-mere" onmouseover=style='border:1px;'>
+        <area alt="Ram1" title="Ram1"  coords="936,126,1194,438,1309,418,1330,374,1303,367,1275,370,1048,110,1055,72,1048,49,963,59" shape="poly" onmouseover="document.images['immap'].src='ram.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('ram')">
+        <area alt="Ram2" title="Ram2"  coords="468,114,512,195,509,233,553,260,634,378,628,466,655,520,672,530,807,510,814,466,773,449,563,161,560,104" shape="poly" onmouseover="document.images['immap'].src='ram.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('ram')">
+        <area alt="MiniPci1" title="MiniPci1"  coords="740,656,746,618,851,595,865,625,858,658,761,682" shape="poly" onmouseover="document.images['immap'].src='minipcie.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('pcie_x1')">
+        <area alt="MiniPci2" title="MiniPci2"  coords="828,784,831,748,942,724,953,751,950,788,842,818" shape="poly" onmouseover="document.images['immap'].src='minipcie.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('pcie_x1')">
+        <area alt="Sata1" title="Sata1"  coords="1360,893,1370,866,1353,845,1469,818,1482,835,1478,864" shape="poly" onmouseover="document.images['immap'].src='sata.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('sata')">
+        <area alt="Sata2" title="Sata2"  coords="1445,529,1459,509,1503,495,1635,640,1621,670,1575,683,1557,702,1547,685,1554,661" shape="poly" onmouseover="document.images['immap'].src='sata.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('sata')">
+        <area alt="Sata3" title="Sata3"  coords="1605,746,1662,737,1706,781,1700,805,1645,825,1618,815,1625,784,1645,825" shape="poly" onmouseover="document.images['immap'].src='sata.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('processeur')">
+        <area alt="Branchement" title="Branchement"  coords="475,558,499,412,265,33,248,175,414,442,417,470" shape="poly" onmouseover="document.images['immap'].src='connectique.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('panneaues')">
+        <area alt="PortM2" title="PortM2"  coords="1218,669,1231,642,1265,632,1323,700,1286,693,1255,710" shape="poly" onmouseover="document.images['immap'].src='portm2.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('m2')">
+        <area alt="Processeur" title="Processeur"  coords="831,451,719,274,729,254,946,220,1089,407" shape="poly" onmouseover="document.images['immap'].src='socket.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('processeur')">
+        <area alt="AlimCarteMere" title="AlimCarteMere"  coords="1179,223,1187,193,1217,188,1319,303,1311,336,1298,338,1292,347,1279,347,1276,349,1206,261" shape="poly" onmouseover="document.images['immap'].src='alimmere.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('ConnectAlim')">
+        <area alt="Pile" title="Pile"  coords="1060,603,1063,568,1082,547,1109,547,1128,552,1144,549,1155,574,1155,593,1138,603,1120,611,1095,619,1074,617" shape="poly" onmouseover="document.images['immap'].src='pile.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('cmos')">
+        <area alt="Pcie1" title="Pcie1"  coords="696,599,710,556,1055,491,1066,507,1055,553,710,620" shape="poly" onmouseover="document.images['immap'].src='pcie.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('pcie_x16')">
+        <area alt="Pcie2" title="Pcie2"  coords="780,717,791,680,1141,610,1155,623,1147,672,801,747" shape="poly" onmouseover="document.images['immap'].src='pcie.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('pcie_x16')">
+        <area alt="Pcie3" title="Pcie3"  coords="863,856,880,815,1236,729,1252,751,1238,794,893,883" shape="poly" onmouseover="document.images['immap'].src='pcie.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('pcie_x16')">
+        <area alt="Pcie4" title="Pcie4"  coords="915,927,925,884,1289,793,1303,817,1292,855,936,954" shape="poly" onmouseover="document.images['immap'].src='pcie.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';" onclick="ouvrir('pcie_x16')">
+        <area alt="Sysfan" title="Sysfan"  coords="966,1014,936,979,990,950,1014,998" shape="poly" onmouseover="document.images['immap'].src='sysfan.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';">
+        <area alt="Jled" title="Jled"  coords="1017,990,1006,963,1058,944,1060,977" shape="poly" onmouseover="document.images['immap'].src='jled1.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';">
+        <area alt="jfp1" title="jfp1"  coords="1082,976,1074,941,1130,919,1141,957" shape="poly" onmouseover="document.images['immap'].src='jfp1.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';">
+        <area alt="USB" title="USB"  coords="1192,945,1182,921,1165,908,1179,883,1306,854,1322,878,1314,910" shape="poly" onmouseover="document.images['immap'].src='usb.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';">
+        <area alt="Jaud1" title="Jaud1"  coords="869,1033,855,1001,925,977,933,1017" shape="poly" onmouseover="document.images['immap'].src='jaud1.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';">
+        <area alt="Jtpm1" title="Jtpm1"  coords="836,934,820,907,882,888,893,920" shape="poly" onmouseover="document.images['immap'].src='jtpm1.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';">
+        <area alt="usb2" title="usb2"  coords="1295,355,1315,365,1328,378,1332,402,1359,412,1362,388,1345,365,1318,334" shape="poly" onmouseover="document.images['immap'].src='usb30.png';" onmouseout="document.images['immap'].src='carte-mere.jpg';">    
+    </map>
+    <div id="Card">
+                <button id="close" onclick="fermer()"><img id="arrow" src="arrow.png"></button>
+                <div id="title"></div>
+                <div id="Ongletimg"></div>
+            <div id="Onglet">
+                <button id="ButtonOnglet1" onclick="ouvrironglet(1)"></button>
+                <button id="ButtonOnglet2" onclick="ouvrironglet(2)"></button>
+                <button id="ButtonOnglet3" onclick="ouvrironglet(3)"></button>
+                <button id="ButtonOnglet4" onclick="ouvrironglet(4)"></button>
+                <div id="DivOnglet1" class="Onglet"></div>
+                <div id="DivOnglet2" class="Onglet"></div>
+                <div id="DivOnglet3" class="Onglet"></div>
+                <div id="DivOnglet4" class="Onglet"></div>
+            </div>
+        </div>
+</body>
+</html>
