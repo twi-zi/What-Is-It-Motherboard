@@ -1,5 +1,5 @@
 {
-    "processeur": [["Définition","Son role","Jsp","Jsp"],["<p>Le chipset est essentiellement le chef d'orchestre d'une carte mère d'ordinateur. C'est un ensemble complexe de circuits électroniques qui assure la coordination harmonieuse entre les divers composants de l'ordinateur. Sa principale fonction consiste à faciliter la communication et l'échange de données entre ces composants critiques. <br><br> Imaginez le chipset comme un réseau routier sophistiqué qui connecte différentes parties de votre ordinateur. Il permet au processeur de parler à la mémoire, aux périphériques de stockage et à d'autres composants, assurant ainsi que les informations circulent là où elles sont nécessaires rapidement et efficacement. <br><br>Sans le chipset, votre ordinateur serait comme une ville sans infrastructures de transport adéquates : les données seraient bloquées, le traitement ralentirait et les performances globales en souffriraient. En résumé, le chipset joue un rôle crucial dans le bon fonctionnement et les performances de votre système informatique.</p>","<ul><li>Gestion de la communication : Le chipset coordonne la transmission des données entre le processeur et les autres composants de la carte mère, ainsi qu'entre ces composants eux-mêmes.</li><li>Contrôle des entrées/sorties (E/S) : Il gère les ports et les connecteurs externes (USB, Ethernet, audio, etc.) permettant la connexion des périphériques à la carte mère.</li><li>Contrôle de la mémoire : Le chipset organise l'accès à la mémoire vive (RAM) et régule les transferts de données entre la RAM et le processeur.</li><li>Gestion de l'énergie : Il contrôle la distribution de l'énergie électrique aux différents composants de la carte mère pour optimiser leur fonctionnement.</li></ul>","    <p>Le chipset se compose de deux principaux sous-ensembles : le Northbridge et le Southbridge. <><ul><li><strong>Northbridge :</strong> Historiquement, le Northbridge était responsable de la communication rapide entre le processeur, la mémoire vive et la carte graphique. Cependant, avec l'évolution technologique, de nombreuses fonctions du Northbridge ont été intégrées au processeur lui-même.</li><li><strong>Southbridge :</strong> Le Southbridge est chargé de gérer les fonctions d'entrées/sorties de la carte mère, telles que les ports USB, les ports SATA, le son et le réseau. Il agit comme un pont entre le processeur et les périphériques de stockage et d'entrée/sortie.</li></ul></p>","<p>Les chipsets évoluent constamment pour prendre en charge de nouvelles technologies et fonctionnalités. Les fabricants de cartes mères peuvent personnaliser les chipsets en ajoutant des fonctionnalités supplémentaires ou en optimisant les performances pour des cas d'utilisation spécifiques, comme le jeu, la création de contenu ou les applications professionnelles. De plus, certains processeurs intègrent désormais certaines fonctionnalités traditionnellement assurées par le chipset, ce qui influence également son évolution et son rôle dans les cartes mères modernes.</p>"],["<h1>Le Chipset</h1>","<img src='./img/processeur/img1.jpg' class='imgonglet'>"]],
+    "processeur": [["Définition","Son role","Jsp","Jsp"],["<p>Le chipset est essentiellement le chef d'orchestre d'une carte mère d'ordinateur. C'est un ensemble complexe de circuits électroniques qui assure la coordination harmonieuse entre les divers composants de l'ordinateur. Sa principale fonction consiste à faciliter la communication et l'échange de données entre ces composants critiques. <br><br> Imaginez le chipset comme un réseau routier sophistiqué qui connecte différentes parties de votre ordinateur. Il permet au processeur de parler à la mémoire, aux périphériques de stockage et à d'autres composants, assurant ainsi que les informations circulent là où elles sont nécessaires rapidement et efficacement. <br><br>Sans le chipset, votre ordinateur serait comme une ville sans infrastructures de transport adéquates : les données seraient bloquées, le traitement ralentirait et les performances globales en souffriraient. En résumé, le chipset joue un rôle crucial dans le bon fonctionnement et les performances de votre système informatique.</p>","<ul><li>Gestion de la communication : Le chipset coordonne la transmission des données entre le processeur et les autres composants de la carte mère, ainsi qu'entre ces composants eux-mêmes.</li><li>Contrôle des entrées/sorties (E/S) : Il gère les ports et les connecteurs externes (USB, Ethernet, audio, etc.) permettant la connexion des périphériques à la carte mère.</li><li>Contrôle de la mémoire : Le chipset organise l'accès à la mémoire vive (RAM) et régule les transferts de données entre la RAM et le processeur.</li><li>Gestion de l'énergie : Il contrôle la distribution de l'énergie électrique aux différents composants de la carte mère pour optimiser leur fonctionnement.</li></ul>","    <p>Le chipset se compose de deux principaux sous-ensembles : le Northbridge et le Southbridge. <><ul><li><strong>Northbridge :</strong> Historiquement, le Northbridge était responsable de la communication rapide entre le processeur, la mémoire vive et la carte graphique. Cependant, avec l'évolution technologique, de nombreuses fonctions du Northbridge ont été intégrées au processeur lui-même.</li><li><strong>Southbridge :</strong> Le Southbridge est chargé de gérer les fonctions d'entrées/sorties de la carte mère, telles que les ports USB, les ports SATA, le son et le réseau. Il agit comme un pont entre le processeur et les périphériques de stockage et d'entrée/sortie.</li></ul></p>","<p>Les chipsets évoluent constamment pour prendre en charge de nouvelles technologies et fonctionnalités. Les fabricants de cartes mères peuvent personnaliser les chipsets en ajoutant des fonctionnalités supplémentaires ou en optimisant les performances pour des cas d'utilisation spécifiques, comme le jeu, la création de contenu ou les applications professionnelles. De plus, certains processeurs intègrent désormais certaines fonctionnalités traditionnellement assurées par le chipset, ce qui influence également son évolution et son rôle dans les cartes mères modernes.</p>"],["<h1>Le Chipset</h1>","<img src='https://twi-zi.github.io/Chef-oeuvre-V6/img/processeur/img1.jpg' class='imgonglet'>"]],
     
     "sata": [
             [
@@ -16,7 +16,7 @@
             ],
             [
                 "<h1>Port Sata</h1>",
-                "<img src='./img/sata/img1.jpg' class='imgonglet'>"
+                "<img src='https://twi-zi.github.io/Chef-oeuvre-V6/img/sata/img1.jpg' class='imgonglet'>"
             ]
         ],
 
@@ -35,7 +35,7 @@
                 ],
                 [
                     "<h1>La Ram (Mémoire Vive)</h1>",
-                    "<img src='./img/ram/img1.jpg' class='imgonglet'>"
+                    "<img src='https://twi-zi.github.io/Chef-oeuvre-V6/img/ram/img1.jpg' class='imgonglet'>"
                 ]
             ],
 
@@ -55,7 +55,7 @@
             ],
             [
                 "<h1>PCIe x1</h1>",
-                "<img src='./img/pcie_x1/img1.jpg' class='imgonglet'>"
+                "<img src='https://twi-zi.github.io/Chef-oeuvre-V6/img/pcie_x1/img1.jpg' class='imgonglet'>"
             ]
         ],
         "panneaues": [
@@ -68,7 +68,7 @@
             ],
             [
                 "<h1>Panneau d'entrée/sortie</h1>",
-                "<img src='./img/panneaues/img1.png' class='imgonglet'>"
+                "<img src='https://twi-zi.github.io/Chef-oeuvre-V6/img/panneaues/img1.png' class='imgonglet'>"
             ]
         ],
         "ConnectAlim": [
@@ -77,12 +77,12 @@
             "<p>Physiquement, il s'agit d'un connecteur à plusieurs broches ou contacts, spécialement conçu pour s'adapter à la carte mère de l'appareil et à l'alimentation électrique. Cette connectivité garantit une liaison sécurisée et stable, minimisant les risques de perte de courant ou de surtension.</p>",
             "<p>Le connecteur d'alimentation principale est souvent standardisé selon des normes spécifiques, telles que ATX (Advanced Technology eXtended) dans les ordinateurs personnels. Ces normes définissent les spécifications techniques du connecteur, assurant ainsi sa compatibilité avec différents types d'alimentations et de cartes mères.</p>",
             "<p>En raison de son rôle central dans la distribution de l'énergie électrique, la fiabilité du connecteur d'alimentation principale est essentielle pour la stabilité et la durabilité du système global. Des connecteurs de qualité et une installation correcte sont donc impératifs pour éviter les pannes potentielles et garantir le bon fonctionnement de l'appareil.</p>"],
-            ["<h1>Connecteur d'alimentation</h1>", "<img src='./img/ConnectAlim/img1.jpg' class='imgonglet'>"]
+            ["<h1>Connecteur d'alimentation</h1>", "<img src='https://twi-zi.github.io/Chef-oeuvre-V6/img/ConnectAlim/img1.jpg' class='imgonglet'>"]
         ],
         "cmos": [
             ["Nature et \nFonction", "Alimentation et Capacité", "Rôle dans le Démarrage", "Maintenance et Remplacement"],
             ["<p>La pile BIOS principale, également connue sous le nom de pile CMOS, est une petite pile située sur la carte mère d'un ordinateur. Elle alimente en énergie une mémoire volatile appelée mémoire CMOS (Complementary Metal-Oxide-Semiconductor). Cette mémoire stocke des informations essentielles au fonctionnement de l'ordinateur, telles que les paramètres de configuration du BIOS (Basic Input/Output System), tels que l'heure système, la date, les réglages du disque dur, etc.</p>", "<p>La pile BIOS principale est généralement alimentée par une pile bouton au lithium ou une pile bouton alcaline de petite taille. Cette pile a une longue durée de vie, souvent de plusieurs années, et elle conserve les données même lorsque l'ordinateur est éteint, assurant ainsi la persistance des paramètres du BIOS.</p>", "<p>Lorsque l'ordinateur est allumé, le BIOS est l'un des premiers programmes à être exécuté. Il initialise et teste le matériel, puis charge le système d'exploitation à partir du disque dur ou d'un autre périphérique de stockage. Avant de charger le système d'exploitation, le BIOS vérifie les informations stockées dans la mémoire CMOS alimentée par la pile BIOS principale pour configurer correctement le matériel.</p>", "<p>La maintenance de la pile BIOS principale consiste principalement à la remplacer lorsqu'elle est épuisée. La plupart des piles sont faciles à remplacer et peuvent être achetées dans n'importe quelle quincaillerie ou magasin d'électronique. Le remplacement de la pile est souvent nécessaire si vous remarquez que l'heure système est réinitialisée ou si les paramètres du BIOS sont perdus à chaque redémarrage de l'ordinateur.</p>"],
-            ["<h1>Pile CMOS</h1>", "<img src='./img/cmos/img1.jpg' class='imgonglet'>"]
+            ["<h1>Pile CMOS</h1>", "<img src='https://twi-zi.github.io/Chef-oeuvre-V6/img/cmos/img1.jpg' class='imgonglet'>"]
         ],
         "m2": [
             ["Format \nphysique", "Polyvalence des périphériques", "Différents types de connectivité", "Installation et maintenance"],
@@ -94,7 +94,7 @@
             ],
             [
                 "<h1>Port M.2</h1>",
-                "<img src='./img/m2/img1.jpg' class='imgonglet'>"
+                "<img src='https://twi-zi.github.io/Chef-oeuvre-V6/img/m2/img1.jpg' class='imgonglet'>"
             ]
         ]
 
